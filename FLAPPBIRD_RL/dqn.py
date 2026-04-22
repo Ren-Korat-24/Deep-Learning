@@ -12,5 +12,5 @@ class DQN(nn.Module):
             nn.Linear(hidden_dim,action_dim)
         )
 
-    def forwar(self,X):
+    def forward(self,X):
         return self.model(X)
